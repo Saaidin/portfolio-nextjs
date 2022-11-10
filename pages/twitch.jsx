@@ -1,3 +1,4 @@
+/*
 import Image from 'next/image';
 import React from 'react';
 import twitchImg from '../public/assets/projects/twitch.jpg';
@@ -85,3 +86,4 @@ const twitch = () => {
 };
 
 export default twitch;
+*/

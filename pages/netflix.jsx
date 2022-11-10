@@ -1,3 +1,4 @@
+/*
 import Image from 'next/image';
 import React from 'react';
 import netflixImg from '../public/assets/projects/netflix.jpg';
@@ -81,3 +82,4 @@ const netflix = () => {
 };
 
 export default netflix;
+*/

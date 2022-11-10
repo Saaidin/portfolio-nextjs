@@ -1,3 +1,4 @@
+/*
 import Link from 'next/link';
 import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
@@ -57,3 +58,4 @@ const Main = () => {
 };
 
 export default Main;
+*/

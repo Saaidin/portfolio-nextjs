@@ -1,3 +1,4 @@
+/*
 import Image from 'next/image';
 import React from 'react';
 import cryptoImg from '../public/assets/projects/crypto.jpg';
@@ -87,3 +88,4 @@ const crypto = () => {
 };
 
 export default crypto;
+*/
