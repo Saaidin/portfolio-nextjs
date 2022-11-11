@@ -1,4 +1,3 @@
-/*
 import React from 'react';
 import Head from 'next/head';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
@@ -7,7 +6,7 @@ const resume = () => {
   return (
     <>
       <Head>
-        <title>Clint | Resume</title>
+        <title>Saaidin | Resume</title>
         <meta
           name='description'
           content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
@@ -18,17 +17,17 @@ const resume = () => {
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
         <h2 className='text-center'>Resume</h2>
         <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
-          <h2 className='text-center'>Clint Briley</h2>
+          <h2 className='text-center'>Saaidin Mat Esa</h2>
           <div className='flex'>
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
+              href='https://www.linkedin.com/in/dinwebdev'
               target='_blank'
               rel='noreferrer'
             >
               <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
             </a>
             <a
-              href='https://github.com/fireclint'
+              href='https://github.com/Saaidin'
               target='_blank'
               rel='noreferrer'
             >
@@ -72,18 +71,20 @@ const resume = () => {
             <span className='px-2'>|</span>Javascript
             <span className='px-2'>|</span>React
             <span className='px-2'>|</span>Next JS
-            <span className='px-2'>|</span>SQL
-            <span className='px-2'>|</span>NoSQL
+            {/* <span className='px-2'>|</span>SQL */}
+            {/* <span className='px-2'>|</span>NoSQL */}
             <span className='px-2'>|</span>Redux
             <span className='px-2'>|</span>Tailwind
             <span className='px-2'>|</span> Firebase
-            <span className='px-2'>|</span> RESTAPI
+            <span className='px-2'>|</span> REST API
           </p>
-          <p className='py-2'>
+          
+          {/* <p className='py-2'>
             <span className='font-bold'>Amazon Web Services</span>
             <span className='px-2'>|</span>Amazon Web Services Cloud
             Practitioner
-          </p>
+          </p> */}
+          
         </div>
 
         <h5 className='text-center underline text-[18px] py-4'>
@@ -93,11 +94,11 @@ const resume = () => {
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
-            INFINITE TECH
+              DINWEBDEV
             </span>
-            <span className='px-2'>|</span>Dallas, TX
+            <span className='px-2'>|</span>Alor Setar, Malaysia
           </p>
-          <p className='py-1 italic'>Front End Web Developer & Web Master (2013 - Current)</p>
+          <p className='py-1 italic'>Front End Web Developer & Web Master (2021 - Current)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
               Ensured comprehensive mobile responsive UI layouts with
@@ -125,12 +126,12 @@ const resume = () => {
             <span className='font-bold italic'>
               Teaching & Mentoring Web Development
             </span>
-            <span className='px-2'>|</span>Dallas, TX
+            <span className='px-2'>|</span>Alor Setar, Malaysia
           </p>
-          <p className='py-1 italic'>Code Commerce - Youtube Channel (2021 - Current)</p>
+          <p className='py-1 italic'>DinWebDev - Youtube Channel (2021 - Current)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              In 2021 I started “Code Commerce”, a YouTube channel focused on
+              In 2021 I started “DinWebDev”, a YouTube channel focused on
               sharing what I’m learning in web development, specifically
               front-end development.
             </li>
@@ -150,36 +151,31 @@ const resume = () => {
         Experience 
         <div className='py-6'>
           <p className='italic'>
-            <span className='font-bold'>CITY OF SHERMAN, TX</span>
-            <span className='px-2'>|</span>Sherman, TX
+            <span className='font-bold'>TH TECHNOLOGIES SDN BHD, KL</span>
+            <span className='px-2'>|</span>Kuala Lumpur, Malaysia
           </p>
-          <p className='py-1 italic'>Paramedic / Firefighter (2010 – 2019)</p>
+          <p className='py-1 italic'>Senior Contract Executive (2017 – 2019)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              Ensured proper implementation of firefighting techniques and
-              practices including controlling and extinguishing fires, operating
-              hose lines, and fire ground operations, ventilation, and search
-              and rescue.
+              Advising on the potential of a site and working out what a client can afford to build, often termed ‘feasibility’.
             </li>
             <li>
-              Oversaw comprehensive understanding, operation, and maintenance of
-              fire engines, ladder trucks, technical rescue apparatus, and
-              response trailers.
+               Presenting detailed information on the cost of particular elements of work on a periodic basis to enable payment for those works carried out to date. This process is known as ‘valuations’.
             </li>
             <li>
-              Performed ALS techniques as needed within emergency situations
-              including the use of an esophageal or dual lumen airway device and
-              oral intubation using laryngoscopy.
+               Organizing the division of a project into its component work packages, then awarding these work packages to smaller, more specialized construction companies (known as subcontractors) and, in that process, finding out who offers the best deal.
             </li>
             <li>
-              Collaborated with a talented and high performing team of
-              firefighters in high pressure and stressful situations as needed.
+               Dealing with contractual and legal matters.
             </li>
             <li>
-              Utilized proven and demonstrated knowledge of multiple
-              certifications including Pediatric Advanced Life Support,
-              Prehospital Trauma Life Support, and Advanced Cardiac Life
-              Support, among others.
+                Managing costs to make sure that the initial budget isn’t exceeded.
+            </li>
+            <li>
+                Arranging staff payments and, at the end of a job, settling the final accounts.
+            </li>
+            <li>
+                Acting as financial advisors and monitoring progress for the client.
             </li>
           </ul>
         </div>
@@ -189,4 +185,3 @@ const resume = () => {
 };
 
 export default resume;
-*/
